@@ -15,6 +15,7 @@
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -59,7 +60,7 @@
         <section id="projects">
             <h2>Projects</h2>
             <div style="display: flex; flex-direction: column;">
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>Content Management System For Websites</h3>
                     </div>
@@ -74,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>Shoe Shop Management System</h3>
                     </div>
@@ -88,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>VoltVision</h3>
                     </div>
@@ -103,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>Restaurant Management System</h3>
                     </div>
@@ -118,7 +119,7 @@
                     </div>
                 </div>
 
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>Greenhouse Monitoring System</h3>
                     </div>
@@ -133,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>Portfolio</h3>
                     </div>
@@ -148,7 +149,7 @@
                     </div>
                 </div>
 
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>Highway Ticket System- Backend</h3>
                     </div>
@@ -163,7 +164,7 @@
                     </div>
                 </div>
 
-                <div class="project">
+                <div data-aos="fade-up" class="project">
                     <div class="project-title">
                         <h3>Hostel Management System</h3>
                     </div>
@@ -177,12 +178,59 @@
                         </div>
                     </div>
                 </div>
-
+                <div data-aos="fade-up" class="project">
+                    <div class="project-title">
+                        <h3>Chat App</h3>
+                    </div>
+                    <div class="project-details">
+                        <div>
+                            <img src="images/projects/chatapp.png" alt="">
+                        </div>
+                        <div style="padding-left: 20px; max-width: 700px">
+                            <p>This project is a JavaFX-based chat application that utilizes socket programming for real-time communication. It features a user-friendly interface for sending and receiving messages, handling multiple chat sessions, and managing user connections. The application demonstrates the integration of JavaFX for the graphical user interface and socket programming for network communication, showcasing effective implementation of real-time messaging and network management.</p>
+                            <a href="https://github.com/theek23/chat-app">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="project">
+                    <div class="project-title">
+                        <h3>JavaFX Text Edit</h3>
+                    </div>
+                    <div class="project-details">
+                        <div>
+                            <img src="images/projects/JavaFX_Logo.png" alt="">
+                        </div>
+                        <div style="padding-left: 20px; max-width: 700px">
+                            <p>This project is a JavaFX-based chat application that utilizes socket programming for real-time communication. It features a user-friendly interface for sending and receiving messages, handling multiple chat sessions, and managing user connections. The application demonstrates the integration of JavaFX for the graphical user interface and socket programming for network communication, showcasing effective implementation of real-time messaging and network management.</p>
+                            <a href="https://github.com/theek23/chat-app">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="project">
+                    <div class="project-title">
+                        <h3>JavaEE-Backend</h3>
+                    </div>
+                    <div class="project-details">
+                        <div>
+                            <img src="images/projects/javaee.png" alt="">
+                        </div>
+                        <div style="padding-left: 20px; max-width: 700px">
+                            <p>This project is a Java EE-based Point of Sale (POS) system focusing on backend functionality. It includes features for handling transactions, managing inventory, and processing sales data. The system utilizes Java EE technologies to provide a robust and scalable backend solution for retail operations, ensuring efficient management of sales and inventory processes.</p>
+                            <a href="https://github.com/theek23/chat-app">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Theekshana De Silva</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- AOS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init();
+        });
+    </script>
 </body>
 </html>

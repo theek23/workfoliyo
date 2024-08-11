@@ -100,6 +100,8 @@ footer {
 .wrapper {
     display: inline-flex;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .wrapper .icon {
@@ -212,5 +214,6 @@ footer {
     .project div>div> img {
         width: 100%; /* Make the image full width on smaller screens */
         height: auto; /* Maintain the aspect ratio */
+        margin: 0;
     }
 }
